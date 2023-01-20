@@ -25,6 +25,11 @@
 }
 
 /*==================== General ====================*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
@@ -39,6 +44,9 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 ul {
   margin: 0;
@@ -47,6 +55,10 @@ ul {
 /* or this one
 h1, h2, h3, p {margin-top: 0; margin-bottom: 0;}
 ul {margin-top: 0; margin-bottom: 0; padding-left: 0;} */
+
+.page {
+  overflow: hidden;
+}
 
 .img {
   display: block;
