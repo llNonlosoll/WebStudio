@@ -145,7 +145,7 @@ ul {margin-top: 0; margin-bottom: 0; padding-left: 0;} */
 
 .list-social-media-link {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
