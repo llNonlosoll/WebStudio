@@ -1402,13 +1402,6 @@ ul {margin-top: 0; margin-bottom: 0; padding-left: 0;} */
   color: #757575;
 }
 
-@media screen and (min-width: 428px) and (max-width: 767px) {
-  .modal-form-agree-desc {
-    display: flex;
-    align-items: center;
-  }
-}
-
 .modal-agree-link {
   color: var(--accent);
 
@@ -1431,7 +1424,6 @@ ul {margin-top: 0; margin-bottom: 0; padding-left: 0;} */
   align-items: center;
   width: 16px;
   height: 16px;
-  margin-right: 8px;
 
   color: transparent;
 
